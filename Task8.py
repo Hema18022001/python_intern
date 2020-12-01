@@ -44,12 +44,12 @@ def calc():
               print(" Division:",n1/n2)
              except ZeroDivisionError:
                print("division by zero error")
-         except ValueError:
+          except ValueError:
            print("enter valid input")
 calc()
 
 
-# try block raises a NameError and another for other errors
+#try block raises a NameError and another for other errors
 try:
   print(name)
 except NameError:
@@ -57,6 +57,10 @@ except NameError:
 except:
   print("Other error has occured")
 
+
+#When try-except scenario is not required?
+
+    When our program has normal statements, there is no need for try-except
 
 #Input inside the try catch block
 try:
