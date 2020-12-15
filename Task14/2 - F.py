@@ -1,4 +1,3 @@
-#Bismillah
 import tkinter as tk
 from tkinter import messagebox
 import Modules as md
